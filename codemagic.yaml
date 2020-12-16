@@ -7,7 +7,7 @@ workflows:
         environment:
             vars:
                 XCODE_WORKSPACE: "BadBird.xcodeproj/project"
-                XCODE_SCHEME: "Mi365Locker-iOS"
+                XCODE_SCHEME: "BadBird"
             xcode: latest
             cocoapods: default
         scripts:
