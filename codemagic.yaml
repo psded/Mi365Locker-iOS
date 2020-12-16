@@ -6,7 +6,7 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "Mi365Locker-iOS"
+                XCODE_WORKSPACE: "BadBird.xcodeproj/project"
                 XCODE_SCHEME: "Mi365Locker-iOS"
             xcode: latest
             cocoapods: default
